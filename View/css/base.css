@@ -96,6 +96,11 @@ button {
     line-height: 50px;
 }
 
+.header-right .login:hover,
+.header-right .register:hover {
+    color: rgb(65, 65, 221);
+}
+
 .portrait {
     display: inline-block;
     width: 35px;
