@@ -1,0 +1,70 @@
+/* main start */
+.postMain {
+    margin: 0 auto;
+    width: 800px;
+}
+
+label {
+    font-weight: 800;
+}
+
+#title {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    border: 0;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 32px;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+#postUser {
+    margin-top: 20px;
+    height: 20px;
+    width: 200px;
+    border: 0;
+    font-size: 18px;
+    line-height: 1.4;
+    background: #fff;
+}
+
+.articlePlate {
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+    border: 0;
+    font-size: 18px;
+    line-height: 1.4;
+    border: 1px solid #ebebeb;
+    background: #fff;
+}
+
+#postContent {
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 500px;
+    font-size: 18px;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    resize: none;
+}
+
+.commit,
+.reset {
+    float: left;
+    margin-top: 20px;
+    margin-right: 40px;
+    padding: .5em 3.5em;
+    min-width: 82px;
+    height: 3em;
+    text-align: center;
+    color: #0084ff;
+    border-color: #0084ff
+}
+
+/* main end */

@@ -1,0 +1,110 @@
+body {
+    background: #EDF1F3;
+}
+
+.container {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-content {
+    width: 560px;
+    height: 558px;
+    border-radius: 8px;
+    padding: 44px 74px;
+    background: #FFFFFF;
+}
+
+.register-title {
+    font-size: 38px;
+    margin-bottom: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userName {
+    width: 412px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 8px;
+    background: #F9F9F9;
+}
+
+.password {
+    width: 412px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 8px;
+    background: #F9F9F9;
+}
+
+.tryPassword {
+    width: 412px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 8px;
+    background: #F9F9F9;
+}
+
+.name {
+    width: 412px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 8px;
+    background: #F9F9F9;
+}
+
+.telephone {
+    width: 412px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 8px;
+    background: #F9F9F9;
+}
+
+.register {
+    width: 188px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-right: 36px;
+    background: #0B2FB5;
+}
+
+.register:hover {
+    background: #113CDA;
+}
+
+.back {
+    width: 188px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    background: #DD2200;
+}
+
+.back:hover {
+    background: #FF2600;
+}

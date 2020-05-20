@@ -1,0 +1,51 @@
+body {
+  background: #f6f6f6;
+}
+
+.listShow {
+  margin-top: 20px;
+  width: 100%;
+  border: 1px solid #f0f0f0;
+  background: #fff;
+}
+
+.listArticle>a:hover,
+.content>a:hover,
+.content-actions a:hover {
+  color: rgb(134, 134, 235);
+}
+
+.listArticle {
+  position: relative;
+  padding: 0 1em;
+  height: 120px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.listArticle h2 {
+  font-size: 18px;
+  font-weight: 600;
+  height: 2.5em;
+  line-height: 2.5em;
+}
+
+.content-inner {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.content-actions {
+  position: absolute;
+  bottom: 0;
+  padding: .5em 0;
+  font-size: 14px;
+  color: #858383;
+}
+
+.content-actions span {
+  margin-right: 10px;
+  font-size: 14px;
+}

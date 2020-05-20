@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+button {
+    border: none;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* header start */
+.header {
+    height: 50px;
+    background: #fff;
+    border-bottom: 1px solid #BBBBBB;
+}
+
+.logo {
+    float: left;
+    width: 100px;
+    height: 50px;
+    background: blue;
+}
+
+.top-nav {
+    float: left;
+    margin-left: 2em;
+}
+
+.top-nav li {
+    float: left;
+}
+
+.top-nav li a {
+    display: block;
+    padding: 0 1em;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+.top-nav li a:hover {
+    color: rgb(46, 107, 204);
+}
+
+.search-bar {
+    float: right;
+    margin-right: 2em;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar input {
+    float: left;
+    padding-left: 1em;
+    height: 30px;
+    width: 200px;
+    border: 0;
+    background: rgb(245, 245, 245);
+}
+
+.search-bar button {
+    float: left;
+    padding: 0 1em;
+    height: 30px;
+    background: rgb(97, 123, 238);
+}
+
+.header-right {
+    float: right;
+    margin-right: 2em;
+    height: 50px;
+    width: 142px;
+    line-height: 50px;
+}
+
+.portrait {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin-right: 4px;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.portrait img {
+    width: 100%;
+}
+
+.user-name {
+    font-size: 14px;
+}
+
+.user-name:hover {
+    color: gray;
+}

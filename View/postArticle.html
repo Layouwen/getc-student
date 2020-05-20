@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>发帖页</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/postArticle.css">
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="header">
+        <div class="w">
+            <div class="logo"></div>
+            <nav class="top-nav">
+                <ul>
+                    <li><a href="javascript:;">首页</a></li>
+                    <li><a href="javascript:;">公共栏</a></li>
+                    <li><a href="javascript:;">表白墙</a></li>
+                    <li><a href="javascript:;">寻物启事</a></li>
+                    <li><a href="javascript:;">讨论区</a></li>
+                    <li><a href="javascript:;">个人展</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <a class="portrait" href="javascript:;"><img src="upload/user.jpg" alt=""></a>
+                <a class="user-name" href="javascript:;">努力了吗梁同学</a>
+            </div>
+            <div class="search-bar">
+                <form action="">
+                    <input type="text" placeholder="请输入你想搜索的内容" name="" id="">
+                    <button type="submit">搜索</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- main start -->
+    <main class="w">
+        <form class="postMain" action="">
+            <input type="text" name="title" id="title" placeholder="请输入你的标题">
+            <label for="postUser">发帖人：<input type="text" name="postUser" value="努力了吗梁同学" id="postUser" disabled></label>
+            <label for="articlePlate">板块：
+                <select class="articlePlate">
+                    <option value="a">恋爱</option>
+                    <option value="b">公告</option>
+                    <option value="c">寻物启事</option>
+                    <option value="d">表白墙</option>
+                </select>
+            </label>
+            <label for="postContent"><textarea name="postContent" id="postContent"
+                    placeholder="请输入内容"></textarea></label>
+            <div>
+                <button type="submit" class="commit">发送</button>
+                <button type="reset" class="reset">重置</button>
+            </div>
+        </form>
+    </main>
+    <!-- main end -->
+</body>
+
+</html>

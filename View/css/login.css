@@ -1,0 +1,73 @@
+body {
+    background: #EDF1F3;
+}
+
+a {
+    color: #113cda;
+}
+
+.container {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-content {
+    height: 500px;
+    width: 482px;
+    padding: 96px 40px 0 40px;
+    border-radius: 8px;
+    background: #FFFFFF;
+}
+
+.login-title {
+    font-size: 38px;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userName {
+    height: 40px;
+    width: 380px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+.register {
+    text-align: right;
+    margin: 14px 30px;
+    display: block;
+}
+
+.password {
+    height: 40px;
+    width: 380px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+.forgetPassword {
+    text-align: right;
+    margin: 14px 30px;
+    display: block;
+}
+
+.goLogin {
+    height: 40px;
+    width: 380px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    background: #0B2FB5;
+}
+
+.goLogin:hover {
+    background: #113CDA;
+}

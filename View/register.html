@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="header">
+        <div class="w">
+            <div class="logo"></div>
+            <nav class="top-nav">
+                <ul>
+                    <li><a href="javascript:;">首页</a></li>
+                    <li><a href="javascript:;">公共栏</a></li>
+                    <li><a href="javascript:;">表白墙</a></li>
+                    <li><a href="javascript:;">寻物启事</a></li>
+                    <li><a href="javascript:;">讨论区</a></li>
+                    <li><a href="javascript:;">个人展</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <a class="portrait" href="javascript:;"><img src="upload/user.jpg" alt=""></a>
+                <a class="user-name" href="javascript:;">努力了吗梁同学</a>
+            </div>
+            <div class="search-bar">
+                <form action="">
+                    <input type="text" placeholder="请输入你想搜索的内容" name="" id="">
+                    <button type="submit">搜索</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <div class="container">
+        <div class="register-content">
+            <form action="../php/register.php" method="POST">
+                <div class="register-title">注册</div>
+                <input class="userName" name="userName" type="text" placeholder="账号" id="userName">
+                <input class="password" name="password" type="password" placeholder="密码" id="password">
+                <input class="tryPassword" name="tryPassword" type="password" placeholder="确认密码" id="tryPassword">
+                <input class="name" name="name" type="text" placeholder="昵称" id="name">
+                <button class="register" type="submit">注册</button><button class="back" type="button">返回</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

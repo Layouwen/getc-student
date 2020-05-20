@@ -1,0 +1,66 @@
+body {
+    background: #f6f6f6;
+}
+
+.topNav {
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid #f0f2f7;
+    overflow: hidden;
+    background: #fff;
+}
+
+.topNav a {
+    float: left;
+    display: block;
+    padding: 1.5em 2em;
+    font-size: 16px;
+}
+
+.topNav a:hover {
+    color: rgb(170, 165, 165);
+}
+
+.listShow {
+    width: 100%;
+    border: 1px solid #f0f0f0;
+    background: #fff;
+}
+
+.listArticle>a:hover,
+.content>a:hover,
+.content-actions a:hover {
+    color: rgb(134, 134, 235);
+}
+
+.listArticle {
+    padding: 0 1em;
+    height: 150px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.listArticle h2 {
+    font-size: 18px;
+    font-weight: 600;
+    height: 2.5em;
+    line-height: 2.5em;
+}
+
+.content-inner {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.content-actions {
+    padding: .5em 0;
+    font-size: 14px;
+    color: #858383;
+}
+
+.content-actions span {
+    margin-right: 10px;
+    font-size: 14px;
+}

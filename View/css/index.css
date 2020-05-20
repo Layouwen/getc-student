@@ -1,0 +1,121 @@
+body {
+    background: #f1f3f6;
+}
+
+/* banner start */
+.banner {
+    height: 420px;
+    background: pink url() no-repeat center 0;
+}
+
+/* subNav start */
+.subNav {
+    float: left;
+    width: 190px;
+    height: 420px;
+    padding: 0 20px;
+    background: rgba(0, 0, 0, .3)
+}
+
+.subNav li {
+    height: 44px;
+    line-height: 44px;
+}
+
+.subNav li a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.subNav span {
+    float: right;
+}
+
+.subNav li a:hover {
+    color: #00b4ff;
+}
+
+/* course start */
+.course {
+    float: right;
+    width: 228px;
+    height: 300px;
+    margin-top: 50px;
+    background: #fff;
+}
+
+.course-head {
+    height: 48px;
+    line-height: 48px;
+    font-size: 18px;
+    font-weight: 700px;
+    text-align: center;
+    ;
+    color: #fff;
+    background: #9bceea;
+}
+
+.course-body {
+    height: 252px;
+}
+
+.course-body li {
+    height: 14px;
+    padding: 10px 14px;
+    font-size: 14px;
+    border-bottom: 1px solid #efefef;
+}
+
+.course-body li a {
+    color: #4e4e4e;
+}
+
+.course-body li:hover {
+    background: #f1eeee;
+}
+
+.course-body a span {
+    float: right;
+    font-size: 12px;
+}
+
+/* banner end */
+/* goods start */
+.goods {
+    height: 60px;
+    line-height: 60px;
+    margin-top: 10px;
+    font-size: 16px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    background: #fff;
+}
+
+.goods>h3 {
+    float: left;
+    margin: 0 30px;
+    color: #00a4ff;
+}
+
+.goods-item {
+    float: left;
+    color: #bfbfbf;
+}
+
+.goods-item a {
+    margin: 0 20px;
+    color: #050505;
+    text-decoration: none;
+}
+
+.goods-all {
+    float: right;
+    margin-right: 50px;
+    color: #00a4ff;
+}
+
+.goods-all:hover {
+    color: #1070a3;
+}
+
+/* goods end */
