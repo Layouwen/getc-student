@@ -66,8 +66,11 @@ body {
     display: none;
 }
 
+/* .bulletin */
 .bulletin {
-    float: right;
+    position: fixed;
+    top: 60px;
+    right: 29px;
     width: 290px;
     height: 300px;
     background: #fff;
@@ -81,4 +84,33 @@ body {
     line-height: 2.5em;
     border-bottom: 1px solid #f0f0f0;
     background: rgb(143, 166, 243);
+}
+
+/* hotArticle */
+.hotArticle {
+    position: fixed;
+    top: 370px;
+    right: 29px;
+    width: 290px;
+    height: 300px;
+    background: #fff;
+}
+
+.hotArticle header {
+    padding: 0 1em;
+    font-size: 18px;
+    font-weight: 600;
+    height: 2.5em;
+    line-height: 2.5em;
+    border-bottom: 1px solid #f0f0f0;
+    background: rgb(143, 166, 243);
+}
+
+.hotArticle .content li{ 
+    padding: .4em 1em;
+    border: 1px solid #f0f0f0;
+}
+
+.hotArticle .content li a:hover {
+    color: rgb(65, 65, 221);
 }
