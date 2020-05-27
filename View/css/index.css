@@ -70,7 +70,8 @@ body {
 .bulletin {
     position: fixed;
     top: 60px;
-    right: 29px;
+    left: 50%;
+    margin-left: 310px;
     width: 290px;
     height: 300px;
     background: #fff;
@@ -89,8 +90,9 @@ body {
 /* hotArticle */
 .hotArticle {
     position: fixed;
-    top: 370px;
-    right: 29px;
+    top: 381px;
+    left: 50%;
+    margin-left: 310px;
     width: 290px;
     height: 300px;
     background: #fff;
@@ -113,4 +115,11 @@ body {
 
 .hotArticle .content li a:hover {
     color: rgb(65, 65, 221);
+}
+
+@media screen and (max-width: 1200px) {
+    .bulletin,
+    .hotArticle {
+        display: none;
+    }
 }
