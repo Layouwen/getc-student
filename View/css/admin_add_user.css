@@ -1,0 +1,13 @@
+.edit-user {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.edit-input {
+    display: block;
+    margin: 1em;
+}
+
+.edit-input input {
+    margin-left: 1em;
+}
