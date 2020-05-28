@@ -13,6 +13,21 @@ a {
     color: #000;
 }
 
+table {
+    margin: 0 auto;
+}
+
+table,
+tr,
+td {
+    padding: .4em 1em;
+    min-width: 100px;
+    border: 1px solid black;
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: center;
+}
+
 .clearfix::after {
     content: '';
     display: block;
@@ -22,11 +37,26 @@ a {
 }
 
 .clearfix {
-    *zoom:1;
+    *zoom: 1;
 }
 
+/* header-top */
 .head-top {
-    color: red;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-width: 1100px;
+    background: rgb(107, 107, 212);
+    color: #fff;
+    z-index: 11;
+}
+
+.head-top a {
+    color: #fff;
+}
+
+.head-top a:hover {
+    color: rgb(197, 194, 194);
 }
 
 .logo {
@@ -34,7 +64,7 @@ a {
     margin: 0 20px;
     width: 100px;
     height: 50px;
-    background: purple;
+    background: blue;
 }
 
 .nav {
@@ -50,7 +80,6 @@ a {
     padding: 0 2em;
     height: 50px;
     line-height: 50px;
-    background: pink;
 }
 
 .now-user {
@@ -58,8 +87,8 @@ a {
     padding: 0 1em;
     height: 50px;
     line-height: 50px;
-    background: pink;
 }
+
 .now-user span {
     margin-left: .5em;
 }
@@ -69,12 +98,10 @@ a {
     padding: 0 1em;
     height: 50px;
     line-height: 50px;
-    background: pink;
 }
 
 .div-people {
     float: right;
-    background: pink;
 }
 
 .div-people a {
@@ -87,7 +114,7 @@ a {
 .user {
     float: right;
     margin: 4px;
-    margin-right: 1em;
+    margin-right: 2em;
     height: 42px;
     width: 42px;
     border-radius: 50%;
@@ -97,4 +124,87 @@ a {
 
 .user img {
     width: 100%;
+}
+
+/* container */
+.container {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    min-width: 1100px;
+}
+
+/* nav-aside */
+.nav-aside {
+    position: fixed;
+    top: 0;
+    float: left;
+    padding-top: 50px;
+    height: 100%;
+    background: pink;
+}
+
+.top-title {
+    padding: .7em 0;
+    width: 140px;
+    text-align: center;
+    background: deepskyblue;
+}
+
+.nav-aside>ul>li {
+    width: 140px;
+    text-align: center;
+}
+
+.nav-aside li>div {
+    padding: .7em 0;
+    width: 140px;
+    text-align: center;
+    cursor: pointer;
+    background: green;
+}
+
+.nav-aside li>ul>li>a {
+    display: block;
+    padding: .7em 0;
+    width: 140px;
+    text-align: center;
+    background: pink;
+}
+
+.nav-aside li>ul>li>a:hover {
+    border-left: 4px solid green;
+    background: deeppink;
+}
+
+.nav-aside .li-select {
+    border-left: 4px solid green;
+    background: deeppink;
+}
+
+/* main */
+main {
+    float: left;
+    padding: 2em;
+    margin-left: 140px;
+    flex: 1;
+    height: 5000px;
+    background: #fff;
+}
+
+/* icon */
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.icon:hover {
+    color: rgb(117, 117, 179);
+}
+
+.ic-edit {
+    margin-right: 10px;
 }
