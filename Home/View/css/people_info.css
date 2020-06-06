@@ -1,0 +1,45 @@
+.info-bottom>.info-selector {
+    color: #fff;
+    background: rgb(83, 83, 171);
+}
+
+.info-right {
+    float: right;
+    width: 790px;
+    height: 600px;
+    background: #fff;
+}
+
+.info-right>h2 {
+    padding: 1em 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#info-form {
+    position: relative;
+    margin: 20px auto;
+    width: 500px;
+    height: 300px;
+}
+
+#info-form div {
+    margin-bottom: 40px;
+    padding-left: 50px;
+}
+
+#info-form>div>input {
+    padding: .5em;
+}
+
+#info-form button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 3em;
+    color: #fff;
+    background: rgb(83, 83, 171);
+}
