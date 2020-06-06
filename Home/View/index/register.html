@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="../css/register.css">
 </head>
 
+
 <body>
     <!-- header start -->
     <header class="header">
@@ -16,16 +18,16 @@
             <div class="logo"></div>
             <nav class="top-nav">
                 <ul>
-                    <li><a href="index.html">首页</a></li>
+                    <li><a href="javascript:;">首页</a></li>
                     <li><a href="javascript:;">公共栏</a></li>
-                    <li><a href="showArticle.html">表白墙</a></li>
+                    <li><a href="javascript:;">表白墙</a></li>
                     <li><a href="javascript:;">寻物启事</a></li>
                     <li><a href="javascript:;">讨论区</a></li>
                     <li><a href="javascript:;">个人展</a></li>
                 </ul>
             </nav>
             <div class="header-right">
-                <a class="portrait" href="javascript:;"><img src="../upload/user.jpg" alt=""></a>
+                <a class="portrait" href="javascript:;"><img src="" alt=""></a>
                 <a class="user-name" href="javascript:;">努力了吗梁同学</a>
             </div>
             <div class="search-bar">
@@ -39,16 +41,34 @@
     <!-- header end -->
     <div class="container">
         <div class="register-content">
-            <form action="../php/register.php" method="POST">
+            <form action="../../controller/register.php" method="POST">
                 <div class="register-title">注册</div>
                 <input class="userName" name="userName" type="text" placeholder="账号" id="userName">
                 <input class="password" name="password" type="password" placeholder="密码" id="password">
                 <input class="tryPassword" name="tryPassword" type="password" placeholder="确认密码" id="tryPassword">
                 <input class="name" name="name" type="text" placeholder="昵称" id="name">
-                <button class="register" type="submit">注册</button><button class="back" type="button">返回</button>
+                <div class="agree">
+                    <input type="checkbox" name="" id="agree-input"> <em>我已经阅读并同意该协议</em>
+                </div>
+                <button class="ban" type="button">注册</button><a href="./login.html"><button class="back"
+                        type="button">返回</button></a>
             </form>
         </div>
+        <div class="agree-content" style="display: none;">
+            <div class="outDiv">
+                <div class="agree-inner">
+                    <h3>同意协议</h3>
+                    <span>
+                        网易服务涉及到的网易产品的所有权以及相关软件的知识产权归网易公司所有。网易公司所提供的服务必须按照其发布的公司章程，服务条款和操作规则严格执行。本服务条款的效力范围及于网易公司的一切产品和服务，用户在享受网易公司任何单项服务时，应当受本服务条款的约束。
+                    </span>
+                    <div class="yes">同意</div>
+                    <div class="no">拒绝</div>
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="../js/register.js"></script>
 </body>
+
 
 </html>
