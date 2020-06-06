@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>登录页面</title>
+    <title>找回密码</title>
     <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/find_user.css">
 </head>
+
 
 <body>
     <!-- header start -->
@@ -18,15 +20,15 @@
                 <ul>
                     <li><a href="index.html">首页</a></li>
                     <li><a href="javascript:;">公共栏</a></li>
-                    <li><a href="showArticle.html">表白墙</a></li>
+                    <li><a href="javascript:;">表白墙</a></li>
                     <li><a href="javascript:;">寻物启事</a></li>
                     <li><a href="javascript:;">讨论区</a></li>
                     <li><a href="javascript:;">个人展</a></li>
                 </ul>
             </nav>
             <div class="header-right">
-                <a class="portrait" href="javascript:;"><img src="../upload/user.jpg" alt=""></a>
-                <a class="user-name" href="javascript:;">努力了吗梁同学</a>
+                <a class="portrait" href="people_image.html"><img src="../upload/user.jpg" alt=""></a>
+                <a class="user-name" href="people_info.html">努力了吗梁同学</a>
             </div>
             <div class="search-bar">
                 <form action="">
@@ -38,17 +40,19 @@
     </header>
     <!-- header end -->
     <div class="container">
-        <div class="login-content">
+        <div class="register-content">
             <form action="" method="POST">
-                <div class="login-title">登录</div>
-                <input class="userName" name="userName" type="text" placeholder="请输入账号">
-                <a class="register" href="register.html">注册账号</a>
-                <input class="password" name="password" type="password" placeholder="请输入密码">
-                <a class="forgetPassword" href="find_user.html">忘记密码</a>
-                <button class="goLogin" type="submit">登录</button>
+                <div class="register-title">找回密码</div>
+                <input class="userName" name="userName" type="text" placeholder="账号" id="userName">
+                <input class="password" name="password" type="password" placeholder="密码" id="password">
+                <input class="tryPassword" name="tryPassword" type="password" placeholder="确认密码" id="tryPassword">
+                <input class="name" name="name" type="text" placeholder="昵称" id="name">
+                <button class="register" type="button">找回密码</button><a href="./login.html"><button class="back"
+                        type="button">返回</button></a>
             </form>
         </div>
     </div>
 </body>
+
 
 </html>
