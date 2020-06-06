@@ -1,0 +1,80 @@
+.info-bottom>.info-selector {
+    color: #fff;
+    background: rgb(83, 83, 171);
+}
+
+.info-right {
+    float: right;
+    width: 790px;
+    min-height: 600px;
+    background: #fff;
+}
+
+.info-right>h2 {
+    padding: 1em 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.listArticle>a:hover,
+.content>a:hover,
+.content-actions a:hover {
+    color: rgb(134, 134, 235);
+}
+
+.listArticle {
+    position: relative;
+    padding: 0 1em;
+    height: 120px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.listArticle h2 {
+    font-size: 18px;
+    font-weight: 600;
+    height: 2.5em;
+    line-height: 2.5em;
+}
+
+.content-inner {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.content-actions {
+    position: absolute;
+    bottom: 0;
+    padding: .5em 0;
+    width: 100%;
+    font-size: 14px;
+    color: #858383;
+}
+
+.content-actions span {
+    float: left;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.content-actions>em {
+    float:left;
+    font-size: 14px;
+}
+.content-actions>a{
+    float:right;
+    margin-right: 30px;
+    color: gray;
+}
+
+.content-actions>a:hover{
+    color: red;
+}
+
+.content-actions i {
+    font-style: normal;;
+    font-size: 14px;
+}
