@@ -1,0 +1,45 @@
+.father td:nth-child(2) {
+    min-width: 400px;
+}
+
+.content caption {
+    position: relative;
+}
+
+.fatherSon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #000;
+}
+
+.fatherSon>div {
+    float: left;
+    padding: .2em 1em;
+    width: 50%;
+    cursor: pointer;
+    background: #fff;
+}
+
+.fatherSon>.select {
+    color: #fff;
+    background: #000;
+}
+
+.search-user {
+    position: absolute;
+    top: 4px;
+    right: 0;
+}
+
+.user-content {
+    float: left;
+    height: 1.7em;
+    line-height: 1.7em;
+    outline: none;
+}
+
+.search-user button {
+    float: left;
+    padding: 0 1em;
+}

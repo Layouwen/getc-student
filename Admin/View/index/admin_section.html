@@ -57,8 +57,12 @@
         </aside>
         <!-- main -->
         <main class="content">
-            <table>
+            <table class="father">
                 <caption>
+                    <div class="fatherSon one">
+                        <div class="select">父板块</div>
+                        <div>子版块</div>
+                    </div>
                     <h2>父板块管理</h2>
                     <form action="" class="search-user">
                         <input type="text" name="user-content" id="user-content" class="user-content">
@@ -87,8 +91,12 @@
                     </tr>
                 </tbody>
             </table>
-            <table>
+            <table class="son" style="display: none;">
                 <caption>
+                    <div class="fatherSon two">
+                        <div>父板块</div>
+                        <div class="select">子版块</div>
+                    </div>
                     <h2>子板块管理</h2>
                     <form action="" class="search-user">
                         <input type="text" name="user-content" id="user-content" class="user-content">
@@ -123,7 +131,7 @@
             </table>
         </main>
     </div>
-
+    <script src="../js/admin_section.js"></script>
 </body>
 
 </html>

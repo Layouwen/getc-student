@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.content {
+    background: rgb(240, 240, 240);
+}
+
 li {
     list-style: none;
 }
@@ -15,10 +19,10 @@ a {
 
 table {
     margin: 0 auto;
+    background: #fff;
 }
 
 table,
-tr,
 td {
     padding: .4em 1em;
     min-width: 100px;
@@ -147,6 +151,7 @@ td {
     width: 140px;
     text-align: center;
     cursor: pointer;
+    color: #fff;
     background: #B8BAFF;
 }
 
@@ -155,17 +160,18 @@ td {
     padding: .7em 0;
     width: 140px;
     text-align: center;
-    background: #FFEC9E;
+    color: #000;
+    background: #fff;
 }
 
 .nav-aside li>ul>li>a:hover {
     border-left: 4px solid green;
-    background: #B39E4B;
+    background: pink;
 }
 
 .nav-aside .li-select {
     border-left: 4px solid green;
-    background: #B39E4B;
+    background: pink;
 }
 
 /* main */

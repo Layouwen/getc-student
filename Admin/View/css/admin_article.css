@@ -1,0 +1,21 @@
+.content caption {
+    position: relative;
+}
+
+.search-user {
+    position: absolute;
+    top: 4px;
+    right: 0;
+}
+
+.user-content {
+    float: left;
+    height: 1.7em;
+    line-height: 1.7em;
+    outline: none;
+}
+
+.search-user button {
+    float: left;
+    padding: 0 1em;
+}
