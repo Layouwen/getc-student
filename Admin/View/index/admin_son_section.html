@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>后台管理页面</title>
+    <link rel="stylesheet" href="../css/base_manage.css">
+    <link rel="stylesheet" href="../css/admin_show_user.css">
+    <script src="//at.alicdn.com/t/font_1832021_yby6d8z4gsp.js"></script>
+</head>
+
+<body>
+    <!-- header-top -->
+    <header class="head-top clearfix">
+        <div class="logo"></div>
+        <div class="user"><a href=""><img src="../upload/user.jpg" alt=""></a></div>
+        <div class="div-people"><a href="javascript:;">个人中心</a></div>
+        <div class="time">当前时间:<span>2020-05-28 13:36:10</span></div>
+        <div class="now-user">当前用户<span>梁又文</span></div>
+    </header>
+    <!-- container -->
+    <div class="container">
+        <!-- nav-aside -->
+        <aside class="nav-aside">
+            <div class="top-title">导航菜单</div>
+            <ul>
+                <li>
+                    <div class="aside-title">用户管理</div>
+                    <ul>
+                        <li><a href="admin_show_user.html">查看用户</a></li>
+                </li>
+            </ul>
+            </li>
+            <li>
+                <div class="aside-title">板块管理</div>
+                <ul>
+                    <li><a href="admin_section.html">查看板块</a></li>
+                    <li><a href="admin_father_section.html">父板块添加</a></li>
+                    <li><a href="javascript:;" class="li-select">子版块添加</a></li>
+
+                </ul>
+            </li>
+            <li>
+                <div class="aside-title">公告栏管理</div>
+                <ul>
+                    <li><a href="admin_bulletin.html">查看公告栏</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="aside-title">帖子管理</div>
+                <ul>
+                    <li><a href="admin_article.html">查看帖子</a></li>
+                </ul>
+            </li>
+            </ul>
+        </aside>
+        <!-- main -->
+        <main class="content">
+            <form class="add-father" method="POST" action="">
+                <h2>子板块添加</h2>
+                <div>
+                    <span>父板块</span>
+                    <select name="" id="">
+                        <option value="">父亲1</option>
+                        <option value="">父亲2</option>
+                        <option value="">父亲3</option>
+                    </select>
+                </div>
+                <div>
+                    <span>板块名</span>
+                    <input type="text">
+                </div>
+                <div>
+                    <span>简介</span>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <span>版主</span>
+                    <input type="text">
+                </div>
+                <button type="submit">添加</button>
+            </form>
+        </main>
+    </div>
+
+</body>
+
+</html>
