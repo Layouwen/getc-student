@@ -149,3 +149,8 @@ input {
 .user-name:hover {
     color: gray;
 }
+
+textarea {
+    outline: none;
+    resize: none;
+}
