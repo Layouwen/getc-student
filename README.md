@@ -1,12 +1,12 @@
-# GETC-Students GETC学生论坛
+# GETC-Students GETC 学生论坛
 
 ## 查看效果
 
-[点击预览](https://layouwen.github.io/GETC-Students/Home/View/index/index.html)
+[点击预览](http://layouwen.gitee.io/getc-student/Home/View/index/index.html)
 
 ## 介绍
 
-本项目为，学生论坛的前端部分。使用纯html+css+原生js实现学生论坛的基本显示。
+本项目为，学生论坛的前端部分。使用纯 html+css+原生 js 实现学生论坛的基本显示。
 
 ## 页面
 
